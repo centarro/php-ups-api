@@ -167,7 +167,7 @@ class Service implements NodeInterface
      */
     public function getName()
     {
-        return self::$serviceNames[$this->getCode()];
+        return self::$serviceNames[$this->getCode()] ?? '';
     }
 
     /**
@@ -175,7 +175,7 @@ class Service implements NodeInterface
      */
     public function getCode()
     {
-        return $this->code;
+        return $this->code ?? '';
     }
 
     /**
@@ -195,7 +195,7 @@ class Service implements NodeInterface
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description ?? '';
     }
 
     /**

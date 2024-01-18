@@ -1,7 +1,8 @@
 {
-  "name": "gabrielbull/ups-api",
+  "name": "centarro/php-ups-api",
   "type": "library",
   "description": "PHP UPS API",
+  "version": "1.0.0",
   "keywords": [
     "ups",
     "api",

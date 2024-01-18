@@ -115,7 +115,7 @@ class UnitOfMeasurement implements NodeInterface
      */
     public function getCode()
     {
-        return $this->code;
+        return $this->code ?? '';
     }
 
     /**
@@ -136,7 +136,7 @@ class UnitOfMeasurement implements NodeInterface
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description ?? '';
     }
 
     /**

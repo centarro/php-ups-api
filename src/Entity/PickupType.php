@@ -53,7 +53,7 @@ class PickupType implements NodeInterface
      */
     public function getCode()
     {
-        return $this->code;
+        return $this->code ?? '';
     }
 
     /**
@@ -73,7 +73,7 @@ class PickupType implements NodeInterface
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description ?? '';
     }
 
     /**

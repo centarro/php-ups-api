@@ -103,7 +103,7 @@ class PackagingType implements NodeInterface
      */
     public function getCode()
     {
-        return $this->code;
+        return $this->code ?? '';
     }
 
     /**
@@ -124,7 +124,7 @@ class PackagingType implements NodeInterface
      */
     public function getDescription()
     {
-        return $this->description;
+        return $this->description ?? '';
     }
 
     /**
